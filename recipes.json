@@ -1,0 +1,620 @@
+[
+  {
+    "id": "1",
+    "name": "Spaghetti Carbonara",
+    "tags": ["pasta", "Italian", "quick"],
+    "ingredients": [
+      "spaghetti",
+      "eggs",
+      "parmesan cheese",
+      "bacon",
+      "black pepper"
+    ],
+    "instructions": [
+      "Cook spaghetti according to package instructions.",
+      "Fry bacon until crispy.",
+      "Beat eggs and mix with parmesan cheese.",
+      "Combine spaghetti, bacon, and egg mixture off the heat.",
+      "Serve with black pepper."
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Chicken Tikka Masala",
+    "tags": ["Indian", "spicy", "chicken"],
+    "ingredients": [
+      "chicken breast",
+      "yogurt",
+      "tikka masala paste",
+      "coconut milk",
+      "cilantro"
+    ],
+    "instructions": [
+      "Marinate chicken in yogurt and tikka masala paste.",
+      "Cook chicken in a pan until browned.",
+      "Add coconut milk and simmer.",
+      "Garnish with cilantro and serve with rice."
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Caesar Salad",
+    "tags": ["salad", "vegetarian", "easy"],
+    "ingredients": [
+      "romaine lettuce",
+      "croutons",
+      "parmesan cheese",
+      "Caesar dressing",
+      "black pepper"
+    ],
+    "instructions": [
+      "Chop lettuce and place in a bowl.",
+      "Add croutons and parmesan cheese.",
+      "Drizzle with Caesar dressing.",
+      "Toss gently and serve."
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Beef Tacos",
+    "tags": ["Mexican", "beef", "quick"],
+    "ingredients": [
+      "ground beef",
+      "taco seasoning",
+      "taco shells",
+      "lettuce",
+      "tomato",
+      "cheese"
+    ],
+    "instructions": [
+      "Brown ground beef in a skillet.",
+      "Add taco seasoning and water, simmer.",
+      "Fill taco shells with beef and toppings.",
+      "Serve with salsa."
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Vegetable Stir Fry",
+    "tags": ["vegetarian", "quick", "healthy"],
+    "ingredients": [
+      "mixed vegetables",
+      "soy sauce",
+      "ginger",
+      "garlic",
+      "sesame oil"
+    ],
+    "instructions": [
+      "Heat sesame oil in a pan.",
+      "Add ginger and garlic, sauté.",
+      "Add mixed vegetables and stir-fry.",
+      "Add soy sauce and cook until tender."
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Pancakes",
+    "tags": ["breakfast", "easy", "sweet"],
+    "ingredients": [
+      "flour",
+      "milk",
+      "egg",
+      "baking powder",
+      "syrup"
+    ],
+    "instructions": [
+      "Mix flour, milk, egg, and baking powder.",
+      "Pour batter onto a hot skillet.",
+      "Cook until bubbles form, then flip.",
+      "Serve with syrup."
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Chocolate Chip Cookies",
+    "tags": ["dessert", "baking", "sweet"],
+    "ingredients": [
+      "flour",
+      "butter",
+      "sugar",
+      "chocolate chips",
+      "egg"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C).",
+      "Cream butter and sugar together.",
+      "Add egg and mix, then stir in flour and chocolate chips.",
+      "Drop spoonfuls onto a baking sheet and bake for 10-12 minutes."
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Tomato Soup",
+    "tags": ["soup", "vegetarian", "comfort food"],
+    "ingredients": [
+      "canned tomatoes",
+      "onion",
+      "garlic",
+      "vegetable broth",
+      "basil"
+    ],
+    "instructions": [
+      "Sauté onion and garlic in a pot.",
+      "Add canned tomatoes and broth.",
+      "Simmer for 20 minutes.",
+      "Blend until smooth and garnish with basil."
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Beef Stroganoff",
+    "tags": ["beef", "comfort food", "quick"],
+    "ingredients": [
+      "beef strips",
+      "mushrooms",
+      "onion",
+      "sour cream",
+      "egg noodles"
+    ],
+    "instructions": [
+      "Cook egg noodles according to package instructions.",
+      "Brown beef and remove from pan.",
+      "Sauté onions and mushrooms, then return beef to pan.",
+      "Stir in sour cream and serve over noodles."
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Quiche Lorraine",
+    "tags": ["breakfast", "baking", "eggs"],
+    "ingredients": [
+      "pie crust",
+      "eggs",
+      "cream",
+      "bacon",
+      "cheese"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C).",
+      "Whisk eggs and cream together.",
+      "Add cooked bacon and cheese to the mixture.",
+      "Pour into pie crust and bake for 30-35 minutes."
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Stuffed Bell Peppers",
+    "tags": ["vegetarian", "healthy", "bake"],
+    "ingredients": [
+      "bell peppers",
+      "quinoa",
+      "black beans",
+      "corn",
+      "cheese"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C).",
+      "Cook quinoa according to package instructions.",
+      "Mix quinoa, beans, corn, and cheese.",
+      "Stuff mixture into halved bell peppers and bake for 25 minutes."
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Greek Salad",
+    "tags": ["salad", "vegetarian", "fresh"],
+    "ingredients": [
+      "cucumber",
+      "tomato",
+      "red onion",
+      "feta cheese",
+      "olive oil"
+    ],
+    "instructions": [
+      "Chop cucumber, tomato, and onion.",
+      "Combine in a bowl with feta cheese.",
+      "Drizzle with olive oil and toss gently."
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Shrimp Fried Rice",
+    "tags": ["seafood", "rice", "quick"],
+    "ingredients": [
+      "shrimp",
+      "rice",
+      "peas",
+      "carrots",
+      "soy sauce"
+    ],
+    "instructions": [
+      "Cook rice and set aside.",
+      "Sauté shrimp in a pan until pink.",
+      "Add peas and carrots, then rice.",
+      "Stir in soy sauce and serve."
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Lasagna",
+    "tags": ["Italian", "bake", "comfort food"],
+    "ingredients": [
+      "lasagna noodles",
+      "ricotta cheese",
+      "mozzarella cheese",
+      "meat sauce",
+      "parmesan cheese"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C).",
+      "Layer noodles, ricotta, meat sauce, and mozzarella in a baking dish.",
+      "Top with parmesan cheese and bake for 45 minutes."
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Pumpkin Soup",
+    "tags": ["soup", "vegetarian", "comfort food"],
+    "ingredients": [
+      "pumpkin",
+      "onion",
+      "vegetable broth",
+      "cream",
+      "nutmeg"
+    ],
+    "instructions": [
+      "Sauté onion in a pot.",
+      "Add pumpkin and broth, simmer until soft.",
+      "Blend until smooth and stir in cream and nutmeg."
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Egg Fried Rice",
+    "tags": ["rice", "vegetarian", "quick"],
+    "ingredients": [
+      "rice",
+      "eggs",
+      "green onions",
+      "soy sauce",
+      "peas"
+    ],
+    "instructions": [
+      "Cook rice and set aside.",
+      "Scramble eggs in a pan.",
+      "Add rice, peas, and soy sauce.",
+      "Stir in green onions and serve."
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Crispy Baked Chicken",
+    "tags": ["chicken", "bake", "easy"],
+    "ingredients": [
+      "chicken thighs",
+      "bread crumbs",
+      "parmesan cheese",
+      "olive oil",
+      "spices"
+    ],
+    "instructions": [
+      "Preheat oven to 400°F (200°C).",
+      "Mix bread crumbs, parmesan, and spices.",
+      "Coat chicken with olive oil and then with the breadcrumb mixture.",
+      "Bake for 35-40 minutes."
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Cheese Omelette",
+    "tags": ["breakfast", "easy", "eggs"],
+    "ingredients": [
+      "eggs",
+      "cheddar cheese",
+      "milk",
+      "butter",
+      "salt"
+    ],
+    "instructions": [
+      "Whisk eggs with milk and salt.",
+      "Melt butter in a pan.",
+      "Pour in eggs and cook until set.",
+      "Add cheese and fold the omelette."
+    ]
+  },
+  {
+    "id": "19",
+    "name": "BBQ Ribs",
+    "tags": ["meat", "grill", "barbecue"],
+    "ingredients": [
+      "pork ribs",
+      "BBQ sauce",
+      "salt",
+      "pepper",
+      "garlic powder"
+    ],
+    "instructions": [
+      "Preheat grill to medium heat.",
+      "Season ribs with salt, pepper, and garlic powder.",
+      "Cook ribs on the grill, basting with BBQ sauce.",
+      "Grill until tender."
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Minestrone Soup",
+    "tags": ["soup", "Italian", "vegetarian"],
+    "ingredients": [
+      "vegetable broth",
+      "pasta",
+      "canned tomatoes",
+      "vegetables",
+      "beans"
+    ],
+    "instructions": [
+      "Bring broth to a boil.",
+      "Add vegetables and pasta, cook until tender.",
+      "Stir in canned tomatoes and beans.",
+      "Simmer and serve."
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Fettuccine Alfredo",
+    "tags": ["pasta", "Italian", "creamy"],
+    "ingredients": [
+      "fettuccine",
+      "butter",
+      "heavy cream",
+      "parmesan cheese",
+      "black pepper"
+    ],
+    "instructions": [
+      "Cook fettuccine according to package instructions.",
+      "In a pan, melt butter and add cream.",
+      "Stir in parmesan until melted.",
+      "Combine with fettuccine and serve."
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Baked Ziti",
+    "tags": ["pasta", "Italian", "bake"],
+    "ingredients": [
+      "ziti pasta",
+      "marinara sauce",
+      "ricotta cheese",
+      "mozzarella cheese",
+      "parmesan cheese"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C).",
+      "Cook ziti pasta and mix with marinara and ricotta.",
+      "Layer in a baking dish, top with mozzarella and parmesan.",
+      "Bake for 30 minutes."
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Fish Tacos",
+    "tags": ["seafood", "Mexican", "quick"],
+    "ingredients": [
+      "white fish",
+      "taco seasoning",
+      "taco shells",
+      "cabbage",
+      "lime"
+    ],
+    "instructions": [
+      "Season fish with taco seasoning and cook.",
+      "Fill taco shells with fish and top with cabbage.",
+      "Serve with lime wedges."
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Pesto Pasta",
+    "tags": ["pasta", "vegetarian", "quick"],
+    "ingredients": [
+      "pasta",
+      "pesto sauce",
+      "parmesan cheese",
+      "olive oil",
+      "pine nuts"
+    ],
+    "instructions": [
+      "Cook pasta according to package instructions.",
+      "Mix with pesto sauce and olive oil.",
+      "Top with parmesan and pine nuts."
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Fruit Smoothie",
+    "tags": ["drink", "healthy", "breakfast"],
+    "ingredients": [
+      "banana",
+      "berries",
+      "yogurt",
+      "honey",
+      "milk"
+    ],
+    "instructions": [
+      "Blend all ingredients until smooth.",
+      "Serve chilled."
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Chili Con Carne",
+    "tags": ["Mexican", "spicy", "beef"],
+    "ingredients": [
+      "ground beef",
+      "kidney beans",
+      "canned tomatoes",
+      "chili powder",
+      "onion"
+    ],
+    "instructions": [
+      "Brown ground beef and onion in a pot.",
+      "Add beans, tomatoes, and chili powder.",
+      "Simmer for 30 minutes and serve."
+    ]
+  },
+  {
+    "id": "27",
+    "name": "Caprese Salad",
+    "tags": ["salad", "vegetarian", "fresh"],
+    "ingredients": [
+      "mozzarella cheese",
+      "tomato",
+      "basil",
+      "olive oil",
+      "balsamic vinegar"
+    ],
+    "instructions": [
+      "Slice mozzarella and tomatoes.",
+      "Layer with basil leaves.",
+      "Drizzle with olive oil and balsamic vinegar."
+    ]
+  },
+  {
+    "id": "28",
+    "name": "Beef Wellington",
+    "tags": ["beef", "bake", "fancy"],
+    "ingredients": [
+      "beef tenderloin",
+      "mushrooms",
+      "puff pastry",
+      "ham",
+      "egg"
+    ],
+    "instructions": [
+      "Sear beef and let cool.",
+      "Mince mushrooms and cook.",
+      "Wrap beef in ham and mushrooms, then in puff pastry.",
+      "Brush with egg and bake at 400°F (200°C) for 25-30 minutes."
+    ]
+  },
+  {
+    "id": "29",
+    "name": "Coconut Curry",
+    "tags": ["curry", "vegetarian", "spicy"],
+    "ingredients": [
+      "coconut milk",
+      "curry paste",
+      "mixed vegetables",
+      "tofu",
+      "rice"
+    ],
+    "instructions": [
+      "Heat curry paste in a pot.",
+      "Add coconut milk and mixed vegetables.",
+      "Simmer until vegetables are tender.",
+      "Serve with rice."
+    ]
+  },
+  {
+    "id": "30",
+    "name": "Garlic Bread",
+    "tags": ["side", "bread", "quick"],
+    "ingredients": [
+      "baguette",
+      "butter",
+      "garlic",
+      "parsley",
+      "salt"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C).",
+      "Mix butter, minced garlic, parsley, and salt.",
+      "Spread on sliced baguette and bake for 10-15 minutes."
+    ]
+  },
+  {
+    "id": "31",
+    "name": "Mango Sticky Rice",
+    "tags": ["dessert", "Thai", "sweet"],
+    "ingredients": [
+      "glutinous rice",
+      "mango",
+      "coconut milk",
+      "sugar",
+      "salt"
+    ],
+    "instructions": [
+      "Cook rice and let it cool.",
+      "Mix coconut milk, sugar, and salt.",
+      "Serve rice with mango slices and drizzle coconut sauce."
+    ]
+  },
+  {
+    "id": "32",
+    "name": "Ratatouille",
+    "tags": ["vegetarian", "French", "healthy"],
+    "ingredients": [
+      "eggplant",
+      "zucchini",
+      "bell pepper",
+      "tomato",
+      "herbs"
+    ],
+    "instructions": [
+      "Chop vegetables and sauté in olive oil.",
+      "Add herbs and cook until tender.",
+      "Serve warm."
+    ]
+  },
+  {
+    "id": "33",
+    "name": "Beef and Broccoli",
+    "tags": ["Chinese", "beef", "quick"],
+    "ingredients": [
+      "beef strips",
+      "broccoli",
+      "soy sauce",
+      "ginger",
+      "garlic"
+    ],
+    "instructions": [
+      "Stir-fry beef until browned.",
+      "Add broccoli, ginger, and garlic.",
+      "Pour in soy sauce and cook until broccoli is tender."
+    ]
+  },
+  {
+    "id": "34",
+    "name": "Pineapple Fried Rice",
+    "tags": ["rice", "vegetarian", "sweet"],
+    "ingredients": [
+      "rice",
+      "pineapple",
+      "peas",
+      "carrots",
+      "soy sauce"
+    ],
+    "instructions": [
+      "Cook rice and set aside.",
+      "Sauté peas and carrots.",
+      "Add rice and pineapple, then stir in soy sauce."
+    ]
+  },
+  {
+    "id": "35",
+    "name": "Chocolate Mousse",
+    "tags": ["dessert", "chocolate", "fancy"],
+    "ingredients": [
+      "dark chocolate",
+      "cream",
+      "sugar",
+      "eggs",
+      "vanilla"
+    ],
+    "instructions": [
+      "Melt chocolate and let cool.",
+      "Whip cream and fold into chocolate.",
+      "Beat eggs and sugar, then fold in.",
+      "Chill before serving."
+    ]
+  }
+]
