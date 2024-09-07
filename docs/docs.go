@@ -103,7 +103,7 @@ const docTemplate = `{
                         }
                     },
                     "404": {
-                        "description": "Not Found",
+                        "description": "Recipe not found",
                         "schema": {
                             "$ref": "#/definitions/main.Error"
                         }

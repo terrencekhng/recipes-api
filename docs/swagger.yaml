@@ -59,7 +59,7 @@ paths:
           schema:
             $ref: '#/definitions/main.Success'
         "404":
-          description: Not Found
+          description: Recipe not found
           schema:
             $ref: '#/definitions/main.Error'
       summary: Delete a recipe

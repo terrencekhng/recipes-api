@@ -1,17 +1,25 @@
 package main
 
 import (
-	"encoding/json"
+	"context"
 	"github.com/gin-gonic/gin"
 	"github.com/rs/xid"
 	"github.com/swaggo/files"
 	"github.com/swaggo/gin-swagger"
+	"go.mongodb.org/mongo-driver/mongo"
+	"go.mongodb.org/mongo-driver/mongo/options"
+	"go.mongodb.org/mongo-driver/mongo/readpref"
+	"log"
 	"net/http"
 	"os"
 	"strings"
 	_ "terrenceng/recipes-api/docs"
 	"time"
 )
+
+var ctx context.Context
+var err error
+var client *mongo.Client
 
 type Recipe struct {
 	ID           string    `json:"id"`
@@ -25,9 +33,25 @@ type Recipe struct {
 var recipes []Recipe
 
 func init() {
-	recipes = make([]Recipe, 0)
-	file, _ := os.ReadFile("recipes.json")
-	_ = json.Unmarshal(file, &recipes)
+	ctx = context.Background()
+	client, err = mongo.Connect(ctx, options.Client().ApplyURI(os.Getenv("MONGO_URI")))
+
+	if err = client.Ping(context.TODO(), readpref.Primary()); err != nil {
+		log.Fatal(err)
+	}
+
+	log.Println("Connected to MongoDB!")
+
+	var listOfRecipes []interface{}
+	for _, recipe := range recipes {
+		listOfRecipes = append(listOfRecipes, recipe)
+	}
+	collection := client.Database(os.Getenv("MONGO_DATABASE")).Collection("recipes")
+	insertManyResult, err := collection.InsertMany(ctx, listOfRecipes)
+	if err != nil {
+		log.Fatal(err)
+	}
+	log.Println("Inserted recipes: ", len(insertManyResult.InsertedIDs))
 }
 
 type Error struct {
@@ -113,7 +137,7 @@ func UpdateRecipeHandler(c *gin.Context) {
 // @Accept       json
 // @Produce      json
 // @Success      200  {object}  Success
-// @Failure 	 404  {object}  Error
+// @Failure 	 404  {object}  Error  "Recipe not found"
 // @Router       /recipe/{id} [delete]
 func DeleteRecipeHandler(c *gin.Context) {
 	id := c.Param("id")
